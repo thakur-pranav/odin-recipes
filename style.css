@@ -1,0 +1,45 @@
+/* Base body styles */
+body {
+    font-family: Arial, sans-serif;           /* Set default font */
+    background-color: #f8f9fa;                /* Light gray background */
+    color: #333;                              /* Dark gray text for readability */
+    margin: 0;                                /* Remove default body margin */
+    padding: 0;                               /* Remove default body padding */
+  }
+  
+  /* Container layout */
+  .container {
+    max-width: 800px;                         /* Limit content width */
+    margin: 0 auto;                           /* Center horizontally */
+    padding: 20px;                            /* Add space inside container */
+    background-color: #fff;                   /* White background for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #b22222;                           /* Deep red for headings */
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: none;                    /* Remove underline */
+    color: #007bff;                           /* Bootstrap blue */
+  }
+  
+  a:hover {
+    text-decoration: underline;               /* Add underline on hover */
+  }
+  
+  /* List spacing */
+  ul, ol {
+    padding-left: 20px;                       /* Add indent to lists */
+  }
+  
+  /* Image responsiveness */
+  img {
+    max-width: 100%;                          /* Make image fit container */
+    height: auto;                             /* Keep image aspect ratio */
+    margin-bottom: 20px;                      /* Space below image */
+  }
+  
