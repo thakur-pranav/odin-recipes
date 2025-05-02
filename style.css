@@ -14,6 +14,8 @@ body {
     padding: 20px;                            /* Add space inside container */
     background-color: #fff;                   /* White background for contrast */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    border: 2px solid rgb(85, 76, 76);
+    border-radius: 15px;
   }
   
   /* Heading styles */
@@ -41,5 +43,7 @@ body {
     max-width: 100%;                          /* Make image fit container */
     height: auto;                             /* Keep image aspect ratio */
     margin-bottom: 20px;                      /* Space below image */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
   
